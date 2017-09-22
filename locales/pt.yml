@@ -1,0 +1,100 @@
+pt:
+  get_started: 
+    Get Started 
+  email_address: 
+    Your Email Address
+  learn_more:
+    Learn More
+  next:
+    Next
+  project: 
+    title:
+      Gatoto will change the world (Portugues)
+    description_1: 
+      And there are no hoverboards or flying cars.
+    description_2:
+      Just apps. Lots of mother flipping apps.
+  details:
+    one:
+      title:
+        Odio faucibus ipsum integer consequat
+      second_title:
+        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+      description_1: 
+        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
+        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
+        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
+        augue varius tempus lobortis porttitor accumsan consequat
+        adipiscing lorem dolor
+      description_2:  
+        Morbi enim nascetur et placerat lorem sed iaculis neque ante
+        adipiscing adipiscing metus massa. Blandit orci porttitor semper.
+        Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
+        mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
+        ipsum dolor nullam.
+    two:
+      title:
+        Odio faucibus ipsum integer consequat
+      second_title:
+        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+      description: 
+        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
+        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
+        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
+        augue varius tempus lobortis porttitor accumsan consequat
+        adipiscing lorem dolor.
+    three:
+      title:
+        Odio faucibus ipsum integer consequat
+      second_title:
+        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+      description:
+        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
+        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
+        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
+        augue varius tempus lobortis porttitor accumsan consequat
+        adipiscing lorem dolor.
+    four:
+      title:
+        Odio faucibus ipsum integer consequat
+      second_title: 
+        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+      boxes:
+        one:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+        two:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+        three:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+        four:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+        five:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+        six:
+          title:
+            Ipsum sed commodo
+          description:
+            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+      action:
+        Magna sed feugiat
+    five:
+      title:
+        Odio faucibus ipsum integer consequat
+      description:
+        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+
