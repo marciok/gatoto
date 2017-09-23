@@ -1,99 +1,111 @@
 en:
-  get_started: 
+  get_started:
     Get Started
-  email_address: 
+  email_address:
     Your Email Address
   learn_more:
     Learn More
   next:
     Next
-  project: 
+  project:
     title:
-      teste
-    description_1: 
-      And there are no hoverboards or flying cars.
+      Adopt a student in Kenya and Brazil
+    description_1:
+      Use Bitcoin as a way to change the system.
     description_2:
-      Just apps. Lots of mother flipping apps.
+      Your support will give a child the possibility to follow their dreams.
   details:
     one:
       title:
-        Odio faucibus ipsum integer consequat
+        Bitcoin for Education
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
-      description_1: 
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor
-      description_2:  
-        Morbi enim nascetur et placerat lorem sed iaculis neque ante
-        adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-        Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-        mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-        ipsum dolor nullam.
+        “Education is the most powerful weapon, which
+        you can use to change the world." - Nelson Mandela
+      description_1:
+        Low-income families find it increasingly difficult to support their
+        children’s education, making it necessary for children to exit the
+        educational system in order to help their families with surplus resources.
+
+      description_2:
+        The challenge we face is to invert this flow by providing the basic resources
+        and thus, providing sufficient incentive for the families to plan a better
+        future for their children.
     two:
       title:
-        Odio faucibus ipsum integer consequat
+        Kenya - Gatoto School
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
-      description: 
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor.
+        Assists more than 1,000 students between 5 and 15 years old.
+      description:
+        The community formed Gatoto in 1994 because they understood that their
+        children would not receive education without their action.<br><br>
+
+        Today, the school is ranked in the top 10 of community schools in Nairobi and
+        competes alongside well-funded private and public schools in many areas, from
+        standardized test scores to sports competitions. With 25 teachers and 14 support staff, the school has a very dedicated and
+        qualified team.
     three:
       title:
-        Odio faucibus ipsum integer consequat
+        Brazil - Pró-Saber
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+        Assists hundreds of children ranging from 6 to 17 years old.
       description:
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor.
+        Founded in 1987, the organization aimed to support and provide education for
+        thousands of children that had to wait until 7 years old to be accepted in
+        a public school in the community of Paraisópolis (São Paulo).<br><br>
+
+        There are activities related to music, literature, dance, games and play, all designed in
+        a way that supports the learning process and amplifies the curriculum together with the
+        active participation of families and the community.
     four:
       title:
-        Odio faucibus ipsum integer consequat
-      second_title: 
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+        So what now?
+      second_title:
+        As a consequence to the international economic crisis, funding has decreased significantly
+        and the schools are experiencing several challenges. The most vital one is to keep the basic
+        needs like Education and food for its students.<br><br>
+
+        Adopt a student directly through our websit as a gift of life.
+
       boxes:
         one:
           title:
-            Ipsum sed commodo
+            Help change the system
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Be part of the first bitcoin crowdfunding campaign to support
+            education in developing countries
         two:
           title:
-            Ipsum sed commodo
+            Bitcoin for good
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Help shape the idea that Bitcoin is a tech for good!
         three:
           title:
-            Ipsum sed commodo
+            Change a children's future
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Change the system by providing the basic resources for a better
+            future for these children.
         four:
           title:
-            Ipsum sed commodo
+            Receive online gifts
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            You will get an adoption certificate with a profile and photograph of your adopted student
+            together with a description of the Project.
         five:
           title:
-            Ipsum sed commodo
+            Follow online your adopted student
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Get an annual repport highlighting events of the previous year. These updates can be printed off
+            to enable you to keep a journal highlighting the progress of your adopted student.
         six:
           title:
-            Ipsum sed commodo
+            Be part of the team
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Most importantly, as one of our supporters, you are considered part of the team and we will
+            be keeping in personal contact with you as an important member of our project.
       action:
-        Magna sed feugiat
+        Donate now!
     five:
       title:
-        Odio faucibus ipsum integer consequat
+        Donate and subscribe
       description:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+        Get news and keep in touch with your adopted student.
