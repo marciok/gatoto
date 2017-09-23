@@ -1,100 +1,112 @@
 pt:
-  get_started: 
-    Get Started 
-  email_address: 
+  get_started:
+    Get Started
+  email_address:
     Your Email Address
   learn_more:
     Learn More
   next:
     Next
-  project: 
+  project:
     title:
-      Gatoto will change the world (Portugues)
-    description_1: 
-      And there are no hoverboards or flying cars.
+      Adote um aluno no Quênia e no Brasil
+    description_1:
+      Use Bitcoin para mudar o mundo.
     description_2:
-      Just apps. Lots of mother flipping apps.
+      Seu apoio irá dar a uma criança a possibilidade de seguir seus sonhos.
   details:
     one:
       title:
-        Odio faucibus ipsum integer consequat
+        Bitcoin para educação
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
-      description_1: 
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor
-      description_2:  
-        Morbi enim nascetur et placerat lorem sed iaculis neque ante
-        adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-        Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-        mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-        ipsum dolor nullam.
+        “Educação é a ferramenta mais forte que você
+        pode usar para mudar o mundo." - Nelson Mandela
+      description_1:
+        É muito difícil para famílias de extrema baixa renda oferecerem educação
+        formal aos seus filhos, os quais muitas vezes tem que abandonar a escola
+        para tabalhar e incrementar a renda familiar.
+      description_2:
+        Nosso desafio é inverter esse fluxo, oferecendo recursos básicos para que
+        as famílias possam planejar e prover um futuro para seus filhos.
     two:
       title:
-        Odio faucibus ipsum integer consequat
+        Quênia - Gatoto School
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
-      description: 
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor.
+        Atende mais de 1000 alunos com idade entre 5 e 15 anos.
+      description:
+        A GATOTO SCHOOL foi fundada no ano de 1994, quando a própria comunidade
+        entendeu que suas crianças não receberiam educação se eles não fizessem algo.<br><br>
+
+        Atualmente está ranqueada entre as 10 melhores escolas comunitárias de
+        Nairóbi. Formada por uma equipe extremamente dedicada e preparada, a escola
+        conta com 25 professores e 14 profissionais na equipe de apoio.
+
     three:
       title:
-        Odio faucibus ipsum integer consequat
+        Brasil - Pró-Saber
       second_title:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+        Atende centenas de crianças entre 6 e 17 anos.
       description:
-        Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-        Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-        nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-        augue varius tempus lobortis porttitor accumsan consequat
-        adipiscing lorem dolor.
+        Fundada em 1987, a organização enfrentou em SP o desafio de prover educação
+        básica a milhares de crianças de Paraisópolis que não conseguiam vaga no
+        ensino público. <br><br>
+
+        Com o intuito de amenizar essa diferença de oportunidades, a Pró-Saber SP
+        proporciona educação integral de qualidade. Paralelo ao trabalho com as
+        crianças, outro objetivo fundamental desde o começo foi buscar formar
+        educadores de Paraisópolis.
     four:
       title:
-        Odio faucibus ipsum integer consequat
-      second_title: 
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
+        Como colaborar?
+      second_title:
+        Com a diminuição das doações internacionais por conta da crise finaceira,
+        as escolas passam hoje por diversas dificuldades, a mais urgente talvez
+        seja a manutenção do atendimento básico aos seus alunos.<br><br>
+
+        Adote um aluno pelo nosso site como um presente de vida!
       boxes:
         one:
           title:
-            Ipsum sed commodo
+            Ajude a mudar o mundo.
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Faça parte da primeira campanha de crowdfunding com Bitcoin para apoiar
+            projetos educacionais em países em desenvolvimento.
         two:
           title:
-            Ipsum sed commodo
+            Bitcoin para o bem
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Ajude a promover a ideia de que o Bitcoin é uma tecnologia que pode
+            ser usada para o bem!
         three:
           title:
-            Ipsum sed commodo
+            Mude o futuro de uma criança
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Ajude a mudar o mundo provendo os recursos básicos para o futuro de
+            uma criança.
         four:
           title:
-            Ipsum sed commodo
+            Receba recompensas online
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Você receberá um certificado com o perfil e a fotografia do aluno que
+            está adotando junto com uma descrição do projeto.
         five:
           title:
-            Ipsum sed commodo
+            Acompanhe seu aluno
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            Enviaremos um relatório anual com os prinicipais eventos e novidades.
+            Você poderá imprimir o conteúdo para criar e manter o histórico de
+            progresso do seu aluno.
         six:
           title:
-            Ipsum sed commodo
+            Seja parte do time
           description:
-            Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.
+            O mais importante, como um dos nossos doadores, você é considerado parte
+            do time e manteremos contato direto e pessoal contigo como um membro
+            importante do nosso projeto.
       action:
-        Magna sed feugiat
+        Doe agora!
     five:
       title:
-        Odio faucibus ipsum integer consequat
+        Doe e receba suas recompensas online por email
       description:
-        Nascetur eu nibh vestibulum amet gravida nascetur praesent
-
+        Receba notícias e mantenha contato com o aluno que você adotou.
