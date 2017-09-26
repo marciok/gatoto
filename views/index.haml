@@ -13,40 +13,18 @@
     %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
     /[if lte IE 9] <link rel="stylesheet" href="assets/css/ie9.css" />
     /[if lte IE 8] <link rel="stylesheet" href="assets/css/ie8.css" />
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "https://blockchain.info/Resources/js/pay-now-button.js", :type => "text/javascript"}
   %body.landing
     #page-wrapper
       / Header
       %header#header
         %h1#logo
-          %a{:href => "index.html"} Landed
+          %a{:href => "/"} Gatoto
         %nav#nav
           %ul
             %li
-              %a{:href => "index.html"} Home
-            %li
-              %a{:href => "#"} Layouts
-              %ul
-                %li
-                  %a{:href => "left-sidebar.html"} Left Sidebar
-                %li
-                  %a{:href => "right-sidebar.html"} Right Sidebar
-                %li
-                  %a{:href => "no-sidebar.html"} No Sidebar
-                %li
-                  %a{:href => "#"} Submenu
-                  %ul
-                    %li
-                      %a{:href => "#"} Option 1
-                    %li
-                      %a{:href => "#"} Option 2
-                    %li
-                      %a{:href => "#"} Option 3
-                    %li
-                      %a{:href => "#"} Option 4
-            %li
-              %a{:href => "elements.html"} Elements
-            %li
-              %a.button.special{:href => "#"} Sign Up
+              %a.button.special{:href => "#five"}=I18n.t(:donate_now)
       / Banner
       %section#banner
         .content
@@ -58,6 +36,8 @@
               = I18n.t(:project)[:description_2]
           %span.image
             %img{:alt => "", :src => "images/pic01.jpg"}/
+          %br
+        -# %a.button.special{:href => '/'}Donate now with BTC
         %a.goto-next.scrolly{:href => "#one"}=I18n.t(:next)
       / One
       %section#one.spotlight.style1.bottom
@@ -86,7 +66,8 @@
           %p=I18n.t(:details)[:two][:description]
           %ul.actions
             %li
-              %a.button{:href => "#"}=I18n.t(:learn_more)
+              %a.button{:href => "https://www.gatoto.org", :target => '_blank'}=I18n.t(:learn_more)
+              %a.button.html5lightbox{"data-height" => "620", "data-width" => "780", :href => "https://player.vimeo.com/video/139946723?title=0&byline=0&portrait=0" }=I18n.t(:watch_now)
         %a.goto-next.scrolly{:href => "#three"}=I18n.t(:next)
       / Three
       %section#three.spotlight.style3.left
@@ -99,7 +80,8 @@
           %p=I18n.t(:details)[:three][:description]
           %ul.actions
             %li
-              %a.button{:href => "#"}=I18n.t(:learn_more)
+              %a.button{:href => "http://prosabersp.org.br", :target => '_blank'}=I18n.t(:learn_more)
+              %a.button.html5lightbox{"data-height" => "620", "data-width" => "780", :href => "https://player.vimeo.com/video/235168970?title=0&byline=0&portrait=0" }=I18n.t(:watch_now)
         %a.goto-next.scrolly{:href => "#four"}=I18n.t(:next)
       / Four
       %section#four.wrapper.style1.special.fade-up
@@ -136,12 +118,52 @@
           %footer.major
             %ul.actions
               %li
-                %a.button{:href => "#"}=I18n.t(:details)[:four][:action]
+                %a.button{:href => "#five"}=I18n.t(:details)[:four][:action]
+      %section#four.wrapper.style1.special.fade-up{:style => "background-color:#5480f1"}
+        .container
+          %header.major.title-underline
+            %h2=I18n.t(:sponsors)
+          .box.alt
+            .row.uniform
+              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://foxbit.com.br", :target => "_blank"} 
+                  %img{:src => "images/foxbit.png"}
+              %section.4u{:class => "6u$(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://guiadobitcoin.com.br", :target => "_blank"} 
+                  %img{:src => "images/guia-do-bitcoin.jpg"}
+              %section{:class => "4u$ 6u(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://bitpesa.co", :target => "_blank"}
+                  %img{:src => "images/bitpesa.png"}
+            .row.uniform
+              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://portaldobitcoin.com", :target => "_blank"} 
+                  %img{:src => "images/portalbitcoin.png"}
+              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://bitwage.com", :target => "_blank"} 
+                  %img{:src => "images/bitwage.png"}
+              %section{:class => "4u$ 6u(medium) 12u$(xsmall)"}
+                %a.no-border-bottom{:href => "https://bitvest.life", :target => "_blank"} 
+                  %img{:src => "images/bitvest.png"}
       / Five
       %section#five.wrapper.style2.special.fade
         .container
+          .blockchain-btn{"data-address" => "1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem", "data-shared" => "false", :style => "font-size:16px;margin:0 auto;width:300px"}
+            .blockchain.stage-begin
+              %img{:src => "https://blockchain.info/Resources/buttons/donate_64.png", :style => 'cursor:pointer'}/
+            .blockchain.stage-loading{:style => "text-align:center"}
+              %img{:src => "https://blockchain.info/Resources/loading-large.gif"}/
+            .blockchain.stage-ready
+              %p{:align => "center"}
+                Please Donate To Bitcoin Address:
+                %b [[address]]
+              %p.qr-code{:align => "center"}
+            .blockchain.stage-paid
+              Donation of
+              %b [[value]] BTC
+              Received. Thank You.
+            .blockchain.stage-error
+              %font{:color => "red"} [[error]]
           %header
-            %h2=I18n.t(:details)[:five][:title]
             %p=I18n.t(:details)[:five][:description]
           %form.container{:action => "#", :class => "50%", :method => "post"}
             .row.uniform{:class => "50%"}
@@ -151,25 +173,6 @@
                 %input.fit.special{:type => "submit", :value => I18n.t(:get_started) }/
       / Footer
       %footer#footer
-        %ul.icons
-          %li
-            %a.icon.alt.fa-twitter{:href => "#"}
-              %span.label Twitter
-          %li
-            %a.icon.alt.fa-facebook{:href => "#"}
-              %span.label Facebook
-          %li
-            %a.icon.alt.fa-linkedin{:href => "#"}
-              %span.label LinkedIn
-          %li
-            %a.icon.alt.fa-instagram{:href => "#"}
-              %span.label Instagram
-          %li
-            %a.icon.alt.fa-github{:href => "#"}
-              %span.label GitHub
-          %li
-            %a.icon.alt.fa-envelope{:href => "#"}
-              %span.label Email
         %ul.copyright
           %li © Gatoto. All rights reserved.
           %li
@@ -183,5 +186,6 @@
     %script{:src => "assets/js/skel.min.js"}
     %script{:src => "assets/js/util.js"}
     /[if lte IE 8] <script src="assets/js/ie/respond.min.js"></script>
+    %script{:src => "assets/js/html5lightbox.js"}
     %script{:src => "assets/js/main.js"}
 

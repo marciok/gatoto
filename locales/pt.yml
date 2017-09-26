@@ -1,12 +1,18 @@
 pt:
+  watch_now:
+    Assista agora
+  sponsors:
+    Patrocinadores
   get_started:
-    Get Started
+    Começar
   email_address:
     Your Email Address
   learn_more:
-    Learn More
+    Aprenda mais
   next:
-    Next
+    proximo
+  donate_now:
+    Doe agora!
   project:
     title:
       Adote um aluno no Quênia e no Brasil

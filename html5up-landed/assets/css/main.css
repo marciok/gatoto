@@ -2141,11 +2141,6 @@
 			width: 75%;
 		}
 
-		header.title-underline:after {
-			background: #000;
-		}
-    
-
 	footer.major {
 		margin: 4em 0 0 0;
 	}
@@ -4004,7 +3999,3 @@
 					}
 
 	}
-
-.no-border-bottom {
-  border-bottom: 0px;
-}

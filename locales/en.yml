@@ -1,4 +1,8 @@
 en:
+  watch_now:
+    Watch now
+  sponsors:
+    Sponsors
   get_started:
     Get Started
   email_address:
@@ -7,6 +11,8 @@ en:
     Learn More
   next:
     Next
+  donate_now:
+    Donate now!
   project:
     title:
       Adopt a student in Kenya and Brazil
