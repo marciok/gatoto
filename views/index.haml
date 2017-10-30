@@ -170,7 +170,7 @@
           %progress.html5{:max => "100", :value => "80"}
           %header
             %p=I18n.t(:details)[:five][:description]
-          %form.container{:action => "#", :class => "50%", :method => "post"}
+          %form.container{:action => "/subscribe", :class => "50%", :method => "post"}
             .row.uniform{:class => "50%"}
               .8u{:class => "12u$(xsmall)"}
                 %input#email{:name => "email", :placeholder => I18n.t(:email_address), :type => "email"}/
@@ -200,4 +200,9 @@
       e.src='//www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-108908972-1','auto');ga('send','pageview');
+
+      var message = "#{@alert}";
+      if (message.length > 0) {
+        alert(message);
+      }
 
