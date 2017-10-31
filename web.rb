@@ -29,6 +29,11 @@ class Gatoto < Sinatra::Base
   end
 
   get '/' do
+    response = HTTParty.get("https://api.blockcypher.com/v1/btc/main/addrs/1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem/full?limit=50")
+    feed = JSON.parse(response.body)
+    @total_received = feed['total_received']
+    @total_received = @total_received / 100000000.00
+
     haml :index
   end
 

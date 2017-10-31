@@ -166,8 +166,14 @@
               Received. Thank You.
             .blockchain.stage-error
               %font{:color => "red"} [[error]]
-          %h2 Address: 1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem
-          %progress.html5{:max => "100", :value => "80"}
+          %h2 
+            Address: 
+            %strong
+              1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem
+          %h3
+            =@total_received
+            \/ 10 BTC
+          %progress.html5{:value => @total_received, :max => "10"}
           %header
             %p=I18n.t(:details)[:five][:description]
           %form.container{:action => "/subscribe", :class => "50%", :method => "post"}
