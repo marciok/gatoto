@@ -1,0 +1,87 @@
+en:
+  header:
+    title:
+      ADOPT ONE STUDENT
+    description_1:
+      USE BITCOIN TO CHANGE THE WORLD
+    description_2:
+      YOUR SUPPORT WILL GIVE HOPE AND OPPORTUNITY TO CHILDREN IN KENYA AND BRAZIL.
+    button:
+      Donate now!
+    donate:
+      Please Donate Bitcoin
+    stage_paid:
+      text_1:
+        Donation of
+      text_2:
+        Received. <i>Thank You</i>.
+  nav:
+    li_1:
+      BITCOIN FOR EDUCATION
+    li_2:
+      THE INSTITUTIONS
+    li_3:
+      YOUR COLLABORATION
+    li_4:
+      SPONSORS
+    li_5:
+      CONTACT
+  main:
+    article_1:
+      description_1:
+        “Education is the most powerful weapon which you can use to change the world.”
+      description_2:
+        Low-income families find it increasingly difficult to support their children’s education, making it necessary for children to exit the educational system in order to help their families with surplus resources.
+      description_3:
+        The challenge we face is to invert this flow by providing the basic resources and thus, providing sufficient incentive for the families to plan a better future for their children.
+    article_2:
+      institution_1:
+        title:
+          GATOTO SCHOOL
+        description_1:
+          Assists more than 1,000 students between 5 and 15 years old.
+        description_2:
+          The community formed Gatoto in 1994 because they understood that their children would not receive education without their action.<br><br>Today, the school is ranked in the top 10 of community schools in Nairobi and competes alongside well-funded private and public schools in many areas, from standardized test scores to sports competitions. With 25 teachers and 14 support staff, the school has a very dedicated and qualified team.
+      institution_2:
+        title:
+          BRASIL - PRÓ-SABER
+        description:
+          Founded in 1987, the organization aimed to support and provide education for thousands of children that had to wait until 7 years old to be accepted in a public school in the community of Paraisópolis (São Paulo).<br><br>In order to minimize these inequalities of opportunities, the proposal of Pró-Saber SP is to provide comprehensive quality education, taking into consideration the multidimensionality of being, physically, cognitively, emotionally, ethically – all in an integrated manner. Within this proposal, Pró-Saber offer pedagogues and specialist teachers, who share our democratic and educational values.
+      know:
+        LEARN MORE
+      watch:
+        WATCH
+    article_3:
+      item_1:
+        title:
+          WHY DONATE?
+        description:
+          As a consequence to the international economic crisis, funding has decreased significantly and the schools are experiencing several challenges. The most vital one is to keep the basic needs like Education and food for its students.<br><br>Adopt a student directly through our website as a gift of life.
+      item_2:
+        title:
+          HOW TO CONTRIBUTE?
+        description:
+          Send your donation to the address below
+        description2:
+          The amount will be guarded by <b>FOXBIT</b> until the end of the campaign when it will be sent to <b>Bitpesa</b> to be exchanged by local currency and sent to the school.
+      item_3:
+        title:
+          Follow online your adopted student
+        description:
+          Most importantly, as one of our supporters, you are considered part of the team and we will be keeping in personal contact with you as an important member of our project. You will receive updates of students and news about the school progress.
+    article_4:
+      subtitle:
+        SUPPORT
+    article_5:
+      description_1:
+        Get news and keep in touch with your adopted student.
+      form:
+        label:
+          Your email address
+        button:
+          <input class="special" type="submit" value="Start">
+      description_2:
+        Contact email
+  footer:
+    rights:
+      All rights reserved

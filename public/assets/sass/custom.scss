@@ -1,0 +1,90 @@
+//Custom css
+
+.js-video {
+  height: 0;
+  padding-bottom: 60.5%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+h2.major {
+	width:100%;
+}
+
+#article_0 {
+	text-align:center;
+	img {
+		max-width:300px;
+		margin-bottom:25px;
+	}
+	p.txt-custom {
+		font-size: 22px;
+	}
+	progress[value] {
+		appearance: none;
+    border: none;
+    width: 100%;
+    height: 20px;
+    margin: 0 0 1.5em;
+	}
+}
+
+#header nav ul li a {
+	letter-spacing: 0.1rem;
+}
+
+.code-address {
+	word-break: break-all;
+}
+
+#article_3 {
+	.txt-address {
+		font-size: 20px;
+	}
+}
+
+#article_4 {
+	ul {
+	text-align:center;
+		li {
+			display:inline-block;
+			padding:20px 10px;
+			a {
+				border-bottom: 0;
+				img {
+					max-width: 100%;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+	#article_4 {
+		ul {
+			li {
+				display:block;
+				padding:20px 0;
+				width:100%;
+			}
+		}
+	}
+}
