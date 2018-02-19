@@ -1,204 +1,170 @@
 !!!
 /
-  Landed by HTML5 UP
+  Dimension by HTML5 UP
   html5up.net | @ajlkn
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Gatoto
+    %title Adopt1Student
     %meta{:charset => "utf-8"}/
-    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-    /[if lte IE 8] <script src="assets/js/ie/html5shiv.js"></script>
+    %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
+    %link{:href => "images/favicon.png", :rel => "shortcut icon"}/
     %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
+    %link{:href => "assets/css/custom.css", :rel => "stylesheet"}/
     /[if lte IE 9] <link rel="stylesheet" href="assets/css/ie9.css" />
-    /[if lte IE 8] <link rel="stylesheet" href="assets/css/ie8.css" />
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js", :type => "text/javascript"}
-    %script{:src => "https://blockchain.info/Resources/js/pay-now-button.js", :type => "text/javascript"}
+    %noscript
+      %link{:href => "assets/css/noscript.css", :rel => "stylesheet"}/
   %body.landing
-    #page-wrapper
+    / Wrapper
+    #wrapper
       / Header
       %header#header
-        %h1#logo
-          %a{:href => "/"} Gatoto
-        %nav#nav
+        .content
+          .inner
+            %h1=I18n.t(:header)[:title]
+            %p
+              = I18n.t(:header)[:description_1]
+              %br/
+              = I18n.t(:header)[:description_2]
+            %p
+              %a.button.special{:href => "#article_0"}=I18n.t(:header)[:button]
+        %nav
           %ul
             %li
-              %a.button.special{:href => "#five"}=I18n.t(:donate_now)
-      / Banner
-      %section#banner
-        .content
-          %header
-            %h2=I18n.t(:project)[:title]
-            %p
-              = I18n.t(:project)[:description_1]
-              %br/
-              = I18n.t(:project)[:description_2]
-          %span.image
-            %img{:alt => "", :src => "images/pic01.jpg"}/
-          %br
-        -# %a.button.special{:href => '/'}Donate now with BTC
-        %a.goto-next.scrolly{:href => "#one"}=I18n.t(:next)
-      / One
-      %section#one.spotlight.style1.bottom
-        %span.image.fit.main
-          %img{:alt => "", :src => "images/pic02.jpg"}/
-        .content
-          .container
-            .row
-              .4u{:class => "12u$(medium)"}
-                %header
-                  %h2=I18n.t(:details)[:one][:title]
-                  %p=I18n.t(:details)[:one][:second_title]
-              .4u{:class => "12u$(medium)"}
-                %p=I18n.t(:details)[:one][:description_1]
-              %div{:class => "4u$ 12u$(medium)"}
-                %p=I18n.t(:details)[:one][:description_2]
-        %a.goto-next.scrolly{:href => "#two"}=I18n.t(:next)
-      / Two
-      %section#two.spotlight.style2.right
-        %span.image.fit.main
-          %img{:alt => "", :src => "images/pic03.jpg"}/
-        .content
-          %header
-            %h2=I18n.t(:details)[:two][:title]
-            %p=I18n.t(:details)[:two][:second_title]
-          %p=I18n.t(:details)[:two][:description]
-          %ul.actions
+              %a{:href => "#article_1"}=I18n.t(:nav)[:li_1]
             %li
-              %a.button{:href => "https://www.gatoto.org", :target => '_blank'}=I18n.t(:learn_more)
-              %a.button.html5lightbox{"data-height" => "620", "data-width" => "780", :href => "https://player.vimeo.com/video/139946723?title=0&byline=0&portrait=0" }=I18n.t(:watch_now)
-        %a.goto-next.scrolly{:href => "#three"}=I18n.t(:next)
-      / Three
-      %section#three.spotlight.style3.left
-        %span.image.fit.main.bottom
-          %img{:alt => "", :src => "images/pic04.jpg"}/
-        .content
-          %header
-            %h2=I18n.t(:details)[:three][:title]
-            %p=I18n.t(:details)[:three][:second_title]
-          %p=I18n.t(:details)[:three][:description]
-          %ul.actions
+              %a{:href => "#article_2"}=I18n.t(:nav)[:li_2]
             %li
-              %a.button{:href => "http://prosabersp.org.br", :target => '_blank'}=I18n.t(:learn_more)
-              %a.button.html5lightbox{"data-height" => "620", "data-width" => "780", :href => "https://player.vimeo.com/video/235168970?title=0&byline=0&portrait=0" }=I18n.t(:watch_now)
-        %a.goto-next.scrolly{:href => "#four"}=I18n.t(:next)
-      / Four
-      %section#four.wrapper.style1.special.fade-up
-        .container
-          %header.major
-            %h2=I18n.t(:details)[:four][:title]
-            %p=I18n.t(:details)[:four][:second_title]
-          .box.alt
-            .row.uniform
-              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-area-chart
-                %h3=I18n.t(:details)[:four][:boxes][:one][:title]
-                %p=I18n.t(:details)[:four][:boxes][:one][:description]
-              %section.4u{:class => "6u$(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-comment
-                %h3=I18n.t(:details)[:four][:boxes][:two][:title]
-                %p=I18n.t(:details)[:four][:boxes][:two][:description]
-              %section{:class => "4u$ 6u(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-flask
-                %h3=I18n.t(:details)[:four][:boxes][:three][:title]
-                %p=I18n.t(:details)[:four][:boxes][:three][:description]
-              %section.4u{:class => "6u$(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-paper-plane
-                %h3=I18n.t(:details)[:four][:boxes][:four][:title]
-                %p=I18n.t(:details)[:four][:boxes][:four][:description]
-              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-file
-                %h3=I18n.t(:details)[:four][:boxes][:five][:title]
-                %p=I18n.t(:details)[:four][:boxes][:five][:description]  
-              %section{:class => "4u$ 6u$(medium) 12u$(xsmall)"}
-                %span.icon.alt.major.fa-lock
-                %h3=I18n.t(:details)[:four][:boxes][:six][:title]
-                %p=I18n.t(:details)[:four][:boxes][:six][:description]
-          %footer.major
-            %ul.actions
-              %li
-                %a.button{:href => "#five"}=I18n.t(:details)[:four][:action]
-      %section#four.wrapper.style1.special.fade-up{:style => "background-color:#5480f1"}
-        .container
-          %header.major.title-underline
-            %h2=I18n.t(:sponsors)
-          .box.alt
-            .row.uniform
-              %section.4u{:class => "6u(medium) 12u$(xsmall)"}
-                %a.no-border-bottom{:href => "https://foxbit.com.br", :target => "_blank"} 
-                  %img{:src => "images/foxbit.png"}
-              %section.4u{:class => "6u$(medium) 12u$(xsmall)"}
-                %a.no-border-bottom{:href => "https://bitpesa.co", :target => "_blank"} 
-                  %img{:src => "images/bitpesa.png"}
-              %section{:class => "4u$ 6u(medium) 12u$(xsmall)"}
-                %a.no-border-bottom{:href => "https://bitwage.com", :target => "_blank"}
-                  %img{:src => "images/bitwage.png"}
-              %section{:class => "12u$"}
-                %a.no-border-bottom{:href => "https://bitvest.life", :target => "_blank"} 
-                  %img{:src => "images/bitvest.png"}
-          %header.major.title-underline
-            %h2=I18n.t(:support)
-          .box.alt
-            .row.uniform
-              %section{:class => "12u$"}
-                %a.no-border-bottom{:href => "https://guiadobitcoin.com.br", :target => "_blank"} 
-                  %img{:src => "images/guia-do-bitcoin.jpg"}
-              %section{:class => "12u$"}
-                %a.no-border-bottom{:href => "https://portaldobitcoin.com", :target => "_blank"} 
-                  %img{:src => "images/portalbitcoin.png"}
-      / Five
-      %section#five.wrapper.style2.special.fade
-        .container
-          .blockchain-btn{"data-address" => "1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem", "data-shared" => "false", :style => "font-size:16px;margin:0 auto;width:300px"}
-            .blockchain.stage-begin
-              %img{:src => "https://blockchain.info/Resources/buttons/donate_64.png", :style => 'cursor:pointer'}/
-            .blockchain.stage-loading{:style => "text-align:center"}
+              %a{:href => "#article_3"}=I18n.t(:nav)[:li_3]
+            %li
+              %a{:href => "#article_4"}=I18n.t(:nav)[:li_4]
+            %li
+              %a{:href => "#article_5"}=I18n.t(:nav)[:li_5]
+      / Main
+      #main
+        / 1
+        %article#article_0
+          %h2.major=I18n.t(:header)[:donate]
+          %img{:alt => "", :src => "https://blockchain.info/qr?data=1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem&size=125"}/
+          .blockchain-btn
+            .blockchain.stage-loading
               %img{:src => "https://blockchain.info/Resources/loading-large.gif"}/
-            .blockchain.stage-ready
-              %p{:align => "center"}
-                Please Donate To Bitcoin Address:
-                %b [[address]]
-              %p.qr-code{:align => "center"}
             .blockchain.stage-paid
-              Donation of
-              %b [[value]] BTC
-              Received. Thank You.
+              %p{:style => "color:#2ecc71"}
+                =I18n.t(:header)[:stage_paid][:text_1]
+                %b{:style => "color:#2ecc71"} [[value]] BTC
+                =I18n.t(:header)[:stage_paid][:text_2]
             .blockchain.stage-error
-              %font{:color => "red"} [[error]]
-          %h2 
-            Address: 
-            %strong
-              1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem
-          %h3
+              %p{:style => "color:#e74c3c"} [[error]]
+          %p.txt-custom
+            Address:
+            %strong.code-address 1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem
+          %p.txt-custom
             =@total_received
             \/ 10 BTC
           %progress.html5{:value => @total_received, :max => "10"}
-          %header
-            %p=I18n.t(:details)[:five][:description]
-          %form.container{:action => "/subscribe", :class => "50%", :method => "post"}
-            .row.uniform{:class => "50%"}
-              .8u{:class => "12u$(xsmall)"}
-                %input#email{:name => "email", :placeholder => I18n.t(:email_address), :type => "email"}/
-              %div{:class => "4u$ 12u$(xsmall)"}
-                %input.fit.special{:type => "submit", :value => I18n.t(:get_started) }/
+        / 1
+        %article#article_1
+          %h2.major=I18n.t(:nav)[:li_1]
+          %span.image.main
+            %img{:alt => "", :src => "images/pic-1.jpg"}/
+          %blockquote
+            =I18n.t(:main)[:article_1][:description_1]
+            %br/
+            %strong Nelson Mandela
+          %p=I18n.t(:main)[:article_1][:description_2]
+          %p=I18n.t(:main)[:article_1][:description_3]
+        / 2
+        %article#article_2
+          %h2.major=I18n.t(:nav)[:li_2]
+          %h3.major=I18n.t(:main)[:article_2][:institution_1][:title]
+          %p=I18n.t(:main)[:article_2][:institution_1][:description_1]
+          %p=I18n.t(:main)[:article_2][:institution_1][:description_2]
+          %h4=I18n.t(:main)[:article_2][:know]
+          %p
+            %a{:href => "https://goo.gl/biVwK4", :target => "_blank"} https://goo.gl/biVwK4
+          %h4=I18n.t(:main)[:article_2][:watch]
+          .js-video{:class => "[vimeo, widescreen]"}
+            %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://goo.gl/QjdU9Y", :width => "560"}
+          %hr/
+          %h3.major=I18n.t(:main)[:article_2][:institution_2][:title]
+          %p=I18n.t(:main)[:article_2][:institution_2][:description]
+          %h4=I18n.t(:main)[:article_2][:know]
+          %p
+            %a{:href => "https://goo.gl/3PbYBF", :target => "_blank"} https://goo.gl/3PbYBF
+          %h4=I18n.t(:main)[:article_2][:watch]
+          .js-video{:class => "[vimeo, widescreen]"}
+            %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://goo.gl/wspVAL", :width => "560"}
+        / 3
+        %article#article_3
+          %h2.major=I18n.t(:nav)[:li_3]
+          %span.image.main
+            %img{:alt => "", :src => "images/pic-2.jpg"}/
+          %h3.major=I18n.t(:main)[:article_3][:item_1][:title]
+          %p=I18n.t(:main)[:article_3][:item_1][:description]
+          %h3.major=I18n.t(:main)[:article_3][:item_2][:title]
+          %p
+            =I18n.t(:main)[:article_3][:item_2][:description]
+          %blockquote.txt-address
+            Address:
+            %strong.code-address 1KENYAuDzgGZkeHP5edReDhrqRmPdKtPem
+          %p=I18n.t(:main)[:article_3][:item_2][:description2]
+          %h3.major=I18n.t(:main)[:article_3][:item_3][:title]
+          %p=I18n.t(:main)[:article_3][:item_3][:description]
+        / 5
+        %article#article_4
+          %h2.major=I18n.t(:nav)[:li_4]
+          %ul
+            %li
+              %a{:href => "https://foxbit.com.br", :target => "_blank"}
+                %img{:alt => "", :src => "images/patrocinador-foxbit.jpg"}/
+            %li
+              %a{:href => "https://bitpesa.co", :target => "_blank"}
+                %img{:alt => "", :src => "images/patrocinador-bitpesa.png"}/
+            %li
+              %a{:href => "https://bitwage.com", :target => "_blank"}
+                %img{:alt => "", :src => "images/patrocinador-bitwage.jpg"}/
+            %li
+              %a{:href => "https://bitvest.life", :target => "_blank"}
+                %img{:alt => "", :src => "images/patrocinador-bitvest.jpg"}/
+          %h2.major=I18n.t(:main)[:article_4][:subtitle]
+          %ul
+            %li
+              %a{:href => "https://guiadobitcoin.com.br", :target => "_blank"}
+                %img{:alt => "", :src => "images/apoio-guia-do-bitcoin.jpg"}/
+            %li
+              %a{:href => "https://portaldobitcoin.com", :target => "_blank"}
+                %img{:alt => "", :src => "images/apoio-portalbitcoin.jpg"}/
+        / 5
+        %article#article_5
+          %h2.major=I18n.t(:nav)[:li_5]
+          %p=I18n.t(:main)[:article_5][:description_1]
+          %form{:action => "/subscribe", :method => "post"}
+            .field
+              %label{:for => "email"}=I18n.t(:main)[:article_5][:form][:label]
+              %input#email{:name => "email", :type => "email"}/
+            %ul.actions
+              %li=I18n.t(:main)[:article_5][:form][:button]
+          %hr/
+          %p
+            =I18n.t(:main)[:article_5][:description_2]
+            %span :
+            %a{:href => "mailto:adote1aluno@foxbit.com.br"} adote1aluno@foxbit.com.br
       / Footer
       %footer#footer
-        %ul.copyright
-          %li © Gatoto. All rights reserved.
-          %li
-            Design:
-            %a{:href => "http://html5up.net"} HTML5 UP
+        %p.copyright
+          © Adopt1Student. 
+          =I18n.t(:footer)[:rights]
+          %span .  |  Design:
+          %a{:href => "https://html5up.net", :target => "_blank"} HTML5 UP
+    / BG
+    #bg
     / Scripts
-    %script{:src => "assets/js/jquery.min.js"}
-    %script{:src => "assets/js/jquery.scrolly.min.js"}
-    %script{:src => "assets/js/jquery.dropotron.min.js"}
-    %script{:src => "assets/js/jquery.scrollex.min.js"}
-    %script{:src => "assets/js/skel.min.js"}
-    %script{:src => "assets/js/util.js"}
-    /[if lte IE 8] <script src="assets/js/ie/respond.min.js"></script>
-    %script{:src => "assets/js/html5lightbox.js"}
-    %script{:src => "assets/js/main.js"}
+    %script{:src => "assets/js/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "https://blockchain.info/Resources/js/pay-now-button.js", :type => "text/javascript"}
+    %script{:src => "assets/js/skel.min.js", :type => "text/javascript"}
+    %script{:src => "assets/js/util.js", :type => "text/javascript"}
+    %script{:src => "assets/js/main.js", :type => "text/javascript"}
     :javascript
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -211,4 +177,3 @@
       if (message.length > 0) {
         alert(message);
       }
-

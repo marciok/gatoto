@@ -1,120 +1,87 @@
 pt:
-  watch_now:
-    Assista agora
-  sponsors:
-    Patrocinadores
-  support:
-    Apoio
-  get_started:
-    Começar
-  email_address:
-    Your Email Address
-  learn_more:
-    Aprenda mais
-  next:
-    proximo
-  donate_now:
-    Doe agora!
-  project:
+  header:
     title:
-      Adote um aluno no Quênia e no Brasil
+      ADOTE 1 ALUNO
     description_1:
-      Use Bitcoin para mudar o mundo.
+      USE BITCOIN PARA MUDAR O MUNDO!
     description_2:
-      Seu apoio irá dar a uma criança a possibilidade de seguir seus sonhos.
-  details:
-    one:
-      title:
-        Bitcoin para educação
-      second_title:
-        “Educação é a ferramenta mais forte que você
-        pode usar para mudar o mundo." - Nelson Mandela
+      SEU APOIO IRÁ POSSIBILITAR A CRIANÇAS NO BRASIL E NO QUÊNIA, UMA NOVA OPORTUNIDADE.
+    button:
+      Doe agora!
+    donate:
+      Por favor doe Bitcoin
+    stage_paid:
+      text_1:
+        Doação de
+      text_2:
+        Recebido. <i>Obrigado</i>.
+  nav:
+    li_1:
+      BITCOIN PARA EDUCAÇÃO
+    li_2:
+      AS INSTITUIÇÕES
+    li_3:
+      SUA COLABORAÇÃO
+    li_4:
+      PATROCINADORES
+    li_5:
+      CONTATO
+  main:
+    article_1:
       description_1:
-        É muito difícil para famílias de extrema baixa renda oferecerem educação
-        formal aos seus filhos, os quais muitas vezes tem que abandonar a escola
-        para tabalhar e incrementar a renda familiar.
+        “Educação é a ferramenta mais forte que você pode usar para mudar o mundo.”
       description_2:
-        Nosso desafio é inverter esse fluxo, oferecendo recursos básicos para que
-        as famílias possam planejar e prover um futuro para seus filhos.
-    two:
-      title:
-        Quênia - Gatoto School
-      second_title:
-        Atende mais de 1000 alunos com idade entre 5 e 15 anos.
-      description:
-        A GATOTO SCHOOL foi fundada no ano de 1994, quando a própria comunidade
-        entendeu que suas crianças não receberiam educação se eles não fizessem algo.<br><br>
-
-        Atualmente está ranqueada entre as 10 melhores escolas comunitárias de
-        Nairóbi. Formada por uma equipe extremamente dedicada e preparada, a escola
-        conta com 25 professores e 14 profissionais na equipe de apoio.
-
-    three:
-      title:
-        Brasil - Pró-Saber
-      second_title:
-        Atende centenas de crianças entre 6 e 17 anos.
-      description:
-        Fundada em 1987, a organização enfrentou em SP o desafio de prover educação
-        básica a milhares de crianças de Paraisópolis que não conseguiam vaga no
-        ensino público. <br><br>
-
-        Com o intuito de amenizar essa diferença de oportunidades, a Pró-Saber SP
-        proporciona educação integral de qualidade. Paralelo ao trabalho com as
-        crianças, outro objetivo fundamental desde o começo foi buscar formar
-        educadores de Paraisópolis.
-    four:
-      title:
-        Como colaborar?
-      second_title:
-        Com a diminuição das doações internacionais por conta da crise finaceira,
-        as escolas passam hoje por diversas dificuldades, a mais urgente talvez
-        seja a manutenção do atendimento básico aos seus alunos.<br><br>
-
-        Adote um aluno pelo nosso site como um presente de vida!
-      boxes:
-        one:
-          title:
-            Ajude a mudar o mundo.
-          description:
-            Faça parte da primeira campanha de crowdfunding com Bitcoin para apoiar
-            projetos educacionais em países em desenvolvimento.
-        two:
-          title:
-            Bitcoin para o bem
-          description:
-            Ajude a promover a ideia de que o Bitcoin é uma tecnologia que pode
-            ser usada para o bem!
-        three:
-          title:
-            Mude o futuro de uma criança
-          description:
-            Ajude a mudar o mundo provendo os recursos básicos para o futuro de
-            uma criança.
-        four:
-          title:
-            Receba recompensas online
-          description:
-            Você receberá um certificado com o perfil e a fotografia do aluno que
-            está adotando junto com uma descrição do projeto.
-        five:
-          title:
-            Acompanhe seu aluno
-          description:
-            Enviaremos um relatório anual com os prinicipais eventos e novidades.
-            Você poderá imprimir o conteúdo para criar e manter o histórico de
-            progresso do seu aluno.
-        six:
-          title:
-            Seja parte do time
-          description:
-            O mais importante, como um dos nossos doadores, você é considerado parte
-            do time e manteremos contato direto e pessoal contigo como um membro
-            importante do nosso projeto.
-      action:
-        Doe agora!
-    five:
-      title:
-        Doe e receba suas recompensas online por email
-      description:
+        É muito difícil para famílias de extrema baixa renda oferecerem educação formal aos seus filhos, os quais muitas vezes tem que abandonar a escola para trabalhar e incrementar a renda familiar.
+      description_3:
+        Nosso desafio é inverter esse fluxo, oferecendo recursos básicos para que as famílias possam planejar e prover um futuro para seus filhos.
+    article_2:
+      institution_1:
+        title:
+          GATOTO SCHOOL
+        description_1:
+          Atende mais de 1000 alunos com idade entre 5 e 15 anos.
+        description_2:
+          A GATOTO SCHOOL foi fundada no ano de 1994, quando a própria comunidade entendeu que suas crianças não receberiam educação se eles não fizessem algo.<br><br>Atualmente ela está ranqueada entre as 10 melhores escolas comunitárias de Nairóbi. Formada por uma equipe extremamente dedicada e preparada, a escola conta com 25 professores e 14 profissionais na equipe de apoio.
+      institution_2:
+        title:
+          BRASIL - PRÓ-SABER
+        description:
+          O Pró-Saber SP é uma organização social que tem como missão democratizar o acesso às oportunidades na área de educação básica a milhares de crianças de Paraisópolis que não conseguiam vaga no ensino público. Fundado em 1987, ele atende centenas de crianças entre 4 e 17 anos.<br><br>Com o intuito de amenizar essa diferença de oportunidades, a Pró-Saber SP proporciona educação integral de qualidade. Paralelo ao trabalho com as crianças, outro objetivo fundamental desde o começo foi buscar formar educadores de Paraisópolis.
+      know:
+        CONHEÇA
+      watch:
+        ASSISTA
+    article_3:
+      item_1:
+        title:
+          POR QUÊ DOAR?
+        description:
+          Com a diminuição das doações internacionais por conta da crise financeira, as escolas passam hoje por diversas dificuldades, a mais urgente talvez seja a manutenção do atendimento básico aos seus alunos.<br><br>Adote um aluno pelo nosso site como um presente de vida!
+      item_2:
+        title:
+          COMO COLABORAR?
+        description:
+          Envie a sua doação para o endereço de carteira, abaixo
+        description2:
+          Ela ficará custodiada pela <b>FOXBIT</b> até o final da campanha e ao final da será enviado para a <b>Bitpesa</b> converter na moeda local e enviar a escola.
+      item_3:
+        title:
+          ACOMPANHE SEU ALUNO
+        description:
+          O mais importante, como um dos nossos doadores você é considerado parte do time e manteremos contato direto com você. Além de enviar atualizações sobre a situação dos alunos e novidades de progresso das instituições que receberam as doações.
+    article_4:
+      subtitle:
+        APOIO
+    article_5:
+      description_1:
         Receba notícias e mantenha contato com o aluno que você adotou.
+      form:
+        label:
+          Seu endereço de email
+        button:
+          <input class="special" type="submit" value="Começar">
+      description_2:
+        E-mail para contato
+  footer:
+    rights:
+      Todos os direitos reservados
